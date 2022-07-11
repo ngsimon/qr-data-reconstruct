@@ -1,16 +1,16 @@
 echo "Installing python openCV"
 
-sudo apt-get install libzbar-dev
-sudo pip install opencv-python
+sudo apt-get install libzbar-dev 
+sudo apt-get install python3-zbar
+sudo apt-get install python3-opencv
+sudo apt-get install python3-qrtools
+sudo apt-get install python3-pillow
 
 echo "Installing dependencies..."
 
-sudo pip install pypng
-sudo pip install zbar
-sudo pip install pillow
-sudo pip install qrtools
-sudo pip install argparse
-sudo pip install progressbar
+sudo pip3 install pypng
+sudo pip3 install argparse
+sudo pip3 install progressbar
 
 cat << "EOF"
 _____                   _
