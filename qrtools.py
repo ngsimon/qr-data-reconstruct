@@ -179,7 +179,7 @@ class QR(object):
                 # clean up
                 del(image)
                 # Assuming data is encoded in utf8
-                self.data = symbol.data.decode(u'utf-8')
+                self.data = symbol.data
                 self.data_type = self.data_recognise()
                 return True
         else:
